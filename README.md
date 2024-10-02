@@ -6,7 +6,7 @@ created to be used in the zed compiler
 
 **Dose PyLLVM Come With Prebuilt Binaries For LLVM?**
 No PyLLVm does not come with pre bulit Binaries for llvm 
-PyLLVM requires the user to have llc, ld or lld if these
-tools are not installed it will defualt to clang if clang
-is not installed it will throw an error you will still be
-able to generate llvm code just not compile it
+PyLLVM requires the user to have llc, ld or lld if clang is 
+installed that means these tools are available to you 
+without these tools you will be able to emit ir code just not 
+compile it
